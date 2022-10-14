@@ -1,0 +1,9 @@
+.container {
+  width: 1000px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: aquamarine;
+}
