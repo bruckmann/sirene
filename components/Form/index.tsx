@@ -34,7 +34,7 @@ const Form = () => {
     data.append("age", age);
    
     const { data: blobData } = await makeRequest('upload', data)
-    data.append("image_id", blobData.imageId)
+    data.append("image_id", blobData['image_id'])
 
     const { data: predictData } = await makeRequest('predict', data)
     console.log(predictData)
