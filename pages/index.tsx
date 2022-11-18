@@ -9,7 +9,6 @@ const Home: NextPage = () => {
     <>
     <Head>
       <title>Keratoconus Detection</title>
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> 
     </Head>
     <div>
       <Container>
